@@ -1,0 +1,25 @@
+/* storing our classes for dark mode */
+
+:root {
+    --bgColor: white;
+    --onBg: black;
+}
+.dark {
+    --bgColor: black;
+    --onBg: white;
+}
+
+body{
+    background-color: var(--bgColor);
+    color: var(--onBg);
+}
+
+a, a:hover, a:active, a:visited {
+    background-color: var(--bgColor);
+    color: var(--onBg);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
